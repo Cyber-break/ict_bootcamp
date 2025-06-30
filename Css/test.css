@@ -93,7 +93,7 @@ nav ul a{
     padding-bottom: 1rem;
 }
 
-/*  */
+/* Why Newtech */
 .why-main{
     padding: 4rem 1rem;
     background-color: beige;
@@ -106,6 +106,14 @@ nav ul a{
 .why-items img{
     width: 100%;
 }
+.why-Newteh p{
+    font-size: 1.1rem;
+    padding: 0.3rem 0rem;
+}
+.why-ul li{
+    font-size: 1rem;
+    padding: 0.2rem 0rem;
+}
 
 /* Projects */
 .our-project{
@@ -117,20 +125,26 @@ nav ul a{
      object-fit: cover;
 }
 
-/*  */
+/* Review Section */
 .review{
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     background-color:aquamarine;
+}
+.reveiw h2{
+    text-align: center;
 }
 .reviews{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
     gap: 100px;
+}
+.reviews p{
+    padding: 0.2rem 0rem;
 }
 .our-reviews img{
     width: 100%;
     object-fit: cover;
-    height: 220px;
+    
 }
 
 /* Faq */
@@ -160,33 +174,40 @@ nav ul a{
     object-fit: cover;
     margin: 0.2rem 0rem;
 }
-.help{
-
-}
-
     /* Footer1 */
 .footer1{
-    background-color: aquamarine;
+    background-color: aquamarine; 
     display: flex;
-    padding: 1rem;
-    gap: 300px;
-    /* grid-template-columns: repeat(auto-fit(200px, 1fr)); */
-
+    justify-content: space-around;
+    padding: 2rem;
 }
+
+.footer1 div{
+    display: grid;
+    text-align:  -webkit-center;
+    margin-bottom: 4px;
+    /* */
+}
+.foot1 div a{
+    text-decoration: none; 
+}
+
 
 /*  Footer 2 */
 .footer2{
-    height: 50px;
+    height: 3rem;
     align-content: center;
+    background-color:#250902;
+    color: white;
 }
 .help{
     /* padding-left: 0.5rem; */
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
 }
 
 .other{
-    padding-left: 0.5rem;
-    font-size: 1.1rem;
+    /* padding-left: 0.5rem; */
+    /* font-size: 1.1rem; */
 }
 .footer2 p{
     text-align: center;

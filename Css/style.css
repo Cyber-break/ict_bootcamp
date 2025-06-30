@@ -1,0 +1,147 @@
+*{
+    border: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+        /* Section 1 */
+.parent{
+    height: 70px;
+    display: flex;
+    border: 1px solid black;
+    margin: 0px 25px;
+}
+.parent a{
+    flex: 1;
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    font-family: arial;
+    text-decoration: none;
+    color: black;
+}
+        /* Section 2 */
+.tech{
+    height: 490px;
+    margin: 0px 28px;
+    border: 1px solid black;
+    display: flex;
+}
+.tech div{
+    flex: 1;
+    text-align: center;
+    align-content: center;
+}
+.tech-div1-sec1{
+    font-size: 40px;
+}
+.tech-div1-sec2{
+    font-size: 17px;
+    text-align: justify;
+}
+
+            /* Section 3 */
+.clients-div1{
+     font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.clients-div2 i{
+    font-size: 120px;
+    margin-left: 20px;
+}
+
+        /* Section 4 */
+.why-newtech-div1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.why-newtech-div2{
+    display: flex;
+    margin-left: 17px;
+    margin-right: 17px;
+    text-align: justify;
+}
+.why-newtech-div2{
+    font-size: 17px;
+    display: flex;
+}
+.why-newtech-div2-sec2 {
+    margin-top: 50px;
+}
+    /* Section 5 */
+.projects-div1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.projects-div2{
+    text-align: center;
+}
+.projects-div2 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+}
+
+        /* Section 6 */
+.reviews{
+    text-align: center;
+}
+.reviews-div1{
+    text-align: center;
+    font-size: 32px;
+}
+.reviews-div2{
+    text-align: center;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+.reviews-div2-sec1{
+    width: 470px;
+    height: 60px;
+    background-color: white;  
+}
+.reviews-div3{
+    border: 1px solid  black;
+}
+.reviews-div2-sec1-1{
+    height: 20px;
+    border: 1px solid  black;
+}
+.reviews-div2-sec1-2{
+    font-size: 16px;
+    margin: 12px 0px 32px;
+    height: 88px;
+    border: 1px solid  black;
+}
+.reviews-div2-sec1-3{
+    height: 48px;
+    border: 1px solid  black;
+}
+.reviews-main{
+    padding: 25px;
+    border: 1px solid  black;
+}
+
+        /* Footer */
+.footer{
+    display: flex;
+}
+.footer div{
+    flex: 1;
+}
+.footer-div1{
+    text-align: justify;
+    margin-right: 15px;
+}
+.footer2{
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}

@@ -4,9 +4,14 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+img{
+    border-radius: 4px;
+}
 
 nav {
     background: #250902;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
@@ -25,6 +30,7 @@ nav ul li a {
 nav ul li a:hover {
     background: #ebbdc6;
     color: #000;
+    border-radius: 3px;
 }
 nav ul a{
     padding-left: 0.5rem;
@@ -123,6 +129,15 @@ nav ul a{
 }
 .our-project div img{
      object-fit: cover;
+}
+.clients-items h3{
+    padding: 1rem 0rem;
+}
+.clients-main{
+    padding: 1rem 0rem;
+}
+.clients-items a{
+    text-decoration: none;
 }
 
 /* Review Section */
@@ -226,7 +241,7 @@ nav ul a{
     margin: 1rem;
 }
 .a-head p{
-    padding: 0.6rem 1.4rem;
+   padding: 1rem 15rem;
     font-size: 1.1rem;
     text-align: justify; 
 }
@@ -236,8 +251,8 @@ nav ul a{
     margin: 1rem;
 }
 .a-sec2 ul li{
-    margin-left: 3.9rem;
-    margin-top: 1.2rem;
+    padding: 1rem 15rem;
+    font-size: 1.1rem;
     font-size: 1.1rem;
 }
 
@@ -246,7 +261,7 @@ nav ul a{
     text-align: center;
 }
 .a-sec3 p{
-    padding: 0rem 2rem;
+   padding: 1rem 15rem;
     font-size: 1.1rem;
 }
 
@@ -255,110 +270,226 @@ nav ul a{
     text-align: center;
     margin: 1.5rem 0rem;
 }
+
 .s-sec1 h3{
     text-align: center;
+    margin: 1rem 0rem;
+}
+.s-sec1{
+    border: 2px solid #a16868;
+    width:35rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.7rem;
+    background-color: #d6cbcd;
+    box-shadow: 0.3rem 0.6rem #b8a8a8;
+
+}
+.s-main1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 8rem;
+    margin: 3rem 6rem;
 }
 .s-sec1 p{
-    padding: 1rem 1.3rem;
+    padding: 0.2rem 0rem;
     font-size: 1.1rem;
+    text-align: justify;
 }
 
+.s-sec2 {
+    border: 2px solid black;
+    width: 35rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.7rem;
+    background-color: #d6cbcd;
+    box-shadow: 0.3rem 0.6rem #b8a8a8;
+}
+
+.s-sec3{
+    border: 2px solid #a16868;
+    width:35rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.7rem;
+    background-color: #d6cbcd;
+    box-shadow: 0.3rem 0.6rem #b8a8a8;
+
+}
 .s-sec2 h3{
    text-align: center; 
+     margin: 1rem 0rem;
 }
 .s-sec2 p{
-    padding: 1rem 1.3rem;
+   padding: 0.2rem 0rem;
     font-size: 1.1rem;
+    text-align: justify;
 }
 .s-sec2 ul li{
-    margin-left: 3.9rem;
-    margin-top: 1rem;
+    /* margin-left: 17rem; */
+    /* margin-top: 1rem; */
     font-size: 1.1rem;
+    
 }
 
 .s-sec3 h3{
    text-align: center; 
+    margin: 1rem 0rem;
 }
 
+.s-sec4{
+    border: 2px solid #a16868;
+    width:35rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.7rem;
+    background-color: #d6cbcd;
+    box-shadow: 0.3rem 0.6rem #b8a8a8;
+
+}
 .s-sec3 p{
-    padding: 1rem 1.3rem;
+    padding: 0.2rem 0rem;
     font-size: 1.1rem;
+    text-align: justify;
 }
 .s-sec3 ul li{
-    margin-left: 3.9rem;
-    margin-top: 1rem;
+    /* margin-left: 17rem; */
+    /* margin-top: 1rem; */
     font-size: 1.1rem;
+    padding-bottom: 0.6rem;
 }
 
 .s-sec4 h3{
    text-align: center; 
+    margin: 1rem 0rem;
 }
 
 .s-sec4 p{
-    padding: 1rem 1.3rem;
+   padding: 0.2rem 0rem;
     font-size: 1.1rem;
+    text-align: justify;
 }
 .s-sec4 ul li{
-    margin-left: 3.9rem;
-    margin-top: 1rem;
+    /* margin-left: 17rem; */
+    /* margin-top: 1rem; */
     font-size: 1.1rem;
+    padding-bottom: 0.6rem;
+}
+
+.s-sec5{
+    border: 2px solid #a16868;
+    width:35rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.7rem;
+    background-color: #d6cbcd;
+    box-shadow: 0.3rem 0.6rem #b8a8a8;
 }
 
 .s-sec5 h3{
-   text-align: center; 
+   text-align: center;
+    margin: 1rem 0rem; 
 }
 
 .s-sec5 p{
-    padding: 1rem 1.3rem;
+    /* padding: 1rem 15rem; */
     font-size: 1.1rem;
 }
 .s-sec5 ul li{
-    margin-left: 3.9rem;
-    margin-top: 1rem;
+    /* margin-left: 17rem; */
+    /* margin-top: 1rem; */
     font-size: 1.1rem;
+    padding-bottom: 0.6rem;
 }
 
+.s-sec6{
+    border: 2px solid #a16868;
+    width:35rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.7rem;
+    background-color: #d6cbcd;
+    box-shadow: 0.3rem 0.6rem #b8a8a8;
+
+}
 .s-sec6 h3{
    text-align: center; 
+    margin: 1rem 0rem;
 }
 
 .s-sec6 p{
-    padding: 1rem 1.3rem;
+    /* padding: 1rem 15rem; */
     font-size: 1.1rem;
 }
 .s-sec6 ul li{
-    margin-left: 3.9rem;
-    margin-top: 1rem;
+    /* margin-left: 17rem; */
+    /* margin-top: 1rem; */
     font-size: 1.1rem;
+    padding-bottom: 0.6rem;
 }
 
+.s-sec7{
+    border: 2px solid #a16868;
+    width:35rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.7rem;
+    background-color: #d6cbcd;
+    box-shadow: 0.3rem 0.6rem #b8a8a8;
+
+}
 .s-sec7 h3{
    text-align: center; 
+    margin: 1rem 0rem;
 }
 
 .s-sec7 p{
-    padding: 1rem 1.3rem;
+    /* padding: 1rem 15rem; */
     font-size: 1.1rem;
 }
 .s-sec7 ul li{
-    margin-left: 3.9rem;
-    margin-top: 1rem;
+    /* margin-left: 17rem; */
+    /* margin-top: 1rem; */
     font-size: 1.1rem;
+    padding-bottom: 0.6rem;
 }
 
+.s-sec8{
+    border: 2px solid #a16868;
+    width:35rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.7rem;
+    background-color: #d6cbcd;
+    box-shadow: 0.3rem 0.6rem #b8a8a8;
+
+}
 .s-sec8 h3{
-   text-align: center; 
+   text-align: center;
+    margin: 1rem 0rem; 
 }
 
 .s-sec8 ul li{
-    margin: 0.2rem 30rem;
+    /* margin: 0.2rem 17rem; */
     font-size: 1.1rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
+    padding-bottom: 0.6rem;
 }
 
 
 
 /* Features Page */
+
+.f-main-first{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-left: 8rem;
+    margin: 3rem 6rem;
+}
+.f-main{
+ border: 2px solid #a16868;
+    width:35rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.7rem;
+    background-color: #d6cbcd;
+    box-shadow: 0.3rem 0.6rem #b8a8a8;
+
+}
 
 h1{
     text-align: center;
@@ -368,18 +499,22 @@ h1{
 .f-sec1 h3{
     text-align: center;
 }
+
 .f-sec1 p{
-    padding: 0.2rem 2rem;
     font-size: 1.1rem;
+    /* padding: 0rem 2rem; */
+    margin: 1rem 0rem;
 }
 .f-h2{
     text-align: center;
-    padding: 1rem 0rem;
+       margin: 1rem 0rem; 
+    color: rgb(172, 18, 18);
 }
 .f-sec2 h3{
     text-align: center;
     padding: 1rem;
 }
 .f-sec2 p{
-    padding: 0.1rem 3rem;
+    /* padding: 1rem 15rem; */
+    font-size: 1.1rem;
 }
